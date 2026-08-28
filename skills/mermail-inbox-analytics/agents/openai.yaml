@@ -1,0 +1,11 @@
+interface:
+  display_name: "Mermail Inbox Analytics"
+  short_description: "Analyze email patterns, volume trends, top senders, and conversation insights from your Mermail mailbox"
+  default_prompt: "Use $mermail-inbox-analytics to analyze my inbox and show me email patterns, top senders, and volume trends."
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "mermail"
+      description: "Mermail workspace and mailbox MCP server"
+      transport: "streamable_http"
+      url: "https://console.mermail.app/mcp"
