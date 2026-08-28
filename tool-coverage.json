@@ -14,12 +14,6 @@
     "mermail-inbox-analytics"
   ],
   "domains": {
-    "mermail-inbox-analytics": [
-      "list_emails",
-      "get_email",
-      "get_thread",
-      "list_mailboxes"
-    ],
     "mermail-administer-workspace": [
       "get_api_credit_usage", "get_email_usage", "list_workspaces", "get_workspace", "update_workspace", "get_workspace_storage", "list_workspace_members", "update_member_role", "remove_workspace_member", "invite_workspace_member", "resend_workspace_invite", "list_email_domains", "add_email_domain", "delete_email_domain", "verify_email_domain", "list_workspace_mailboxes", "list_mailboxes", "create_mailbox", "get_mailbox", "update_mailbox_settings", "get_mailbox_storage"
     ],
