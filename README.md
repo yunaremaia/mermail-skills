@@ -15,6 +15,7 @@ npx skills add Nudgen-Marketing/mermail-skills --skill mermail-compose-email
 npx skills add Nudgen-Marketing/mermail-skills --skill mermail-scheduling-agent
 npx skills add Nudgen-Marketing/mermail-skills --skill mermail-gtm-agent
 npx skills add Nudgen-Marketing/mermail-skills --skill mermail-support-agent
+npx skills add Nudgen-Marketing/mermail-skills --skill mermail-inbox-analytics
 npx -y skills add Nudgen-Marketing/mermail-skills --skill mermail-x402-agent -g -y --agent '*'
 ```
 
@@ -134,6 +135,7 @@ The check initializes MCP and requires the current 63-tool full-catalog baseline
 | `mermail-agent-inbox` | Reuse or provision an agent mailbox and handle expected verification mail |
 | `mermail-manage-inbox` | Read, search, organize, and clean up inboxes |
 | `mermail-compose-email` | Draft, send, reply, forward, and schedule email |
+| `mermail-inbox-analytics` | Analyze email patterns, volume trends, top senders, thread insights, attachment stats, and time-of-day heatmaps |
 | `mermail-administer-workspace` | Manage workspaces, members, domains, mailboxes, storage, and usage |
 | `mermail-automate-triage` | Configure and inspect task triage automation |
 | `mermail-mail-agent` | Work with mailbox-agent conversations |
