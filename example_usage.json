@@ -1,0 +1,48 @@
+{
+  "skill": "mermail-inbox-analytics",
+  "description": "Analyze email patterns and volume trends",
+  "example_queries": [
+    {
+      "question": "Analyze my inbox for the last 30 days \u2014 who emails me most?",
+      "query": {
+        "tool": "list_emails",
+        "arguments": {
+          "mailboxId": "mbx_your_mailbox_id",
+          "limit": 1000,
+          "sortColumn": "date",
+          "sortDirection": "DESC",
+          "after": "2026-07-29T00:00:00Z"
+        }
+      }
+    },
+    {
+      "question": "What time of day do I get the most emails?",
+      "query": {
+        "tool": "list_emails",
+        "arguments": {
+          "mailboxId": "mbx_your_mailbox_id",
+          "limit": 1000,
+          "sortColumn": "date",
+          "sortDirection": "DESC"
+        }
+      }
+    },
+    {
+      "question": "Show me threads with >5 replies \u2014 which ones are still open?",
+      "query": {
+        "tool": "list_emails",
+        "arguments": {
+          "mailboxId": "mbx_your_mailbox_id",
+          "limit": 500,
+          "sortColumn": "date",
+          "sortDirection": "DESC"
+        }
+      }
+    }
+  ],
+  "demo_resources": {
+    "demo_script": "demo_script.md - Complete 2-5 minute video demonstration script",
+    "quick_reference": "This file - Example JSON queries for common use cases"
+  },
+  "note": "For security, replace mbx_your_mailbox_id with actual mailbox public_id from list_mailboxes"
+}

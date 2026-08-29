@@ -59,6 +59,19 @@ Read [tools.md](references/tools.md) for exact MCP operations. The skill owns no
 - "Show me threads with >5 replies — which ones are still open?"
 - "Attachment stats: how many PDFs vs images, from whom?"
 
+
+
+## Demo
+
+See [demo_script.md](../demo_script.md) for a complete demonstration script (2-5 minute video) showing:
+- How to discover mailboxes using `list_mailboxes`
+- How to fetch email data using `list_emails`
+- How analytics are computed (sender frequency, thread analysis, time patterns, etc.)
+- How to present findings as actionable insights
+- Security and privacy considerations
+
+For quick reference, see [example_usage.json](../example_usage.json) showing example queries for common use cases.
+
 ---
 
 ## Tools
