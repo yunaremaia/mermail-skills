@@ -1,0 +1,11 @@
+interface:
+  display_name: "Mermail Smart Daily Digest"
+  short_description: "Build a prioritized, read-only daily inbox briefing"
+  default_prompt: "Use $mermail-smart-digest to summarize, rank, and catch up on inbox mail without composing, sending, moving, labeling, or deleting anything."
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "mermail"
+      description: "Mermail workspace and mailbox MCP server"
+      transport: "streamable_http"
+      url: "https://console.mermail.app/mcp"
